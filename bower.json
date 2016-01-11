@@ -1,0 +1,22 @@
+{
+  "name": "postit-board-front",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "sgerome <sgerome@groupe-aixia.com>"
+  ],
+  "license": "ISC",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.2.0",
+    "bootstrap": "~3.3.6"
+  }
+}

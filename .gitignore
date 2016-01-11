@@ -1,0 +1,9 @@
+.idea
+vendor
+node_modules
+web/bower_components
+*.log
+*~
+*.swp
+web/public/css
+web/bootstrap.css
