@@ -1,0 +1,19 @@
+{% extends layout %}
+
+{% block content %}
+    <h3>Liste des Post-it</h3>
+    <ul>
+    {% for postit in postits %}
+        {% if postit.message is defined %}
+            <li class="row-fluid">
+                <div class="span6">{{ postit.message }}</div>
+                <div class="span3">
+                    <a class="btn btn-danger btn-xs" href="/delete/{{ postit._id['$id'] }}">X</a>
+                    <a class="btn btn-primary btn-xs" href="/edit/{{ postit._id['$id'] }}">+</a>
+                </div>
+            </li>
+        {% endif %}
+    {% endfor %}
+    </ul>
+    <a class="btn btn-primary" href="/new">Ajouter un postit</a>
+{% endblock %}

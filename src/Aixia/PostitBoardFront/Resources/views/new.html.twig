@@ -1,0 +1,14 @@
+{% extends layout %}
+
+{% block content %}
+<h3>Ajouter un postit </h3>
+<form method="post" action="">
+    <div class="span12">
+        Message du postit : <input type="text" name="message" value="">
+    </div>
+    <div class="span12">
+        <a href="/postits" class="btn btn-primary">Retour</a>
+        <button type="submit" class="btn btn-primary">Ajouter</button>
+    </div>
+</form>
+{% endblock %}
