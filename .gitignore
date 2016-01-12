@@ -6,4 +6,4 @@ web/bower_components
 *~
 *.swp
 web/public/css
-web/bootstrap.css
+app/cache
