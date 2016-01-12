@@ -8,8 +8,8 @@
             <li class="row-fluid">
                 <div class="span6">{{ postit.message }}</div>
                 <div class="span3">
-                    <a class="btn btn-danger btn-xs" href="/delete/{{ postit._id['$id'] }}">X</a>
-                    <a class="btn btn-primary btn-xs" href="/edit/{{ postit._id['$id'] }}">+</a>
+                    <a class="btn btn-danger btn-xs" href="/delete/{{ postit._id }}">X</a>
+                    <a class="btn btn-primary btn-xs" href="/edit/{{ postit._id }}">+</a>
                 </div>
             </li>
         {% endif %}
