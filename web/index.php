@@ -9,6 +9,9 @@ $app
         'twig.path' => array(
             __DIR__ . '/../app/Resources',
             __DIR__ . '/../src/Aixia/PostitBoardFront/Resources/views',
+        ),
+        'twig.cache' => array(
+            'cache' => __DIR__ . '/../app/cache'
         )
     ))
 ;
